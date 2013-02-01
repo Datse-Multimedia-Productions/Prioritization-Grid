@@ -6,11 +6,11 @@
  * Window - Preferences - PHPeclipse - PHP - Code Templates
  */
 
-class item {
+class Item {
 	
 	public $name;
 	public $description;
-	public $score;
+	public $score = 0;
 	
 	public function compare (item $item, $prefered) {
 		if ($prefered) {
